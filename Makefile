@@ -145,8 +145,6 @@ appstore:
 	"css/public" \
 	"js/public" \
 	"js/vendor/autosize/dist/autosize.js" \
-	"js/vendor/tether/dist/js/tether.js" \
-	"js/vendor/tether/dist/css/tether.css" \
 	"COPYING" \
 	"CHANGELOG.md" \
 	$(appstore_build_directory)

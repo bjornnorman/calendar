@@ -60,9 +60,9 @@
 	width: 110% !important; /* very dirty hack to fix alignment issues. */
 }
 
-.modal-open .modal.popover,
-.modal-open .modal.import {
-	position: absolute;
+.modal.popover,
+.modal.import {
+	z-index: 1500;
 	width: 450px;
 	background: #fff;
 	box-shadow: 0 0 3px #999;
@@ -71,7 +71,7 @@
 	padding-bottom: 12px;
 }
 
-.modal-open .modal.import {
+.modal.import {
 	top: 75px;
 	left: calc(50% - 225px);
 	padding: 20px;
@@ -142,7 +142,7 @@
 	padding: 3px 0;
 }
 
-.modal-open .modal.popover .modal-content {
+.modal.popover .modal-content {
 	padding: 20px;
 }
 

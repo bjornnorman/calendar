@@ -62,11 +62,13 @@ const vendorSources = [
 	'vendor/ical.js/build/ical.js',
 	'vendor/jquery-timepicker/jquery.ui.timepicker.js',
 	'vendor/jstzdetect/jstz.js',
+	'vendor/tether/dist/js/tether.js',
 ];
 const vendorCssSources = [
 	'vendor/fullcalendar/dist/fullcalendar.css',
 	'licenses/jquery.timepicker.css',
-	'vendor/jquery-timepicker/jquery.ui.timepicker.css'
+	'vendor/jquery-timepicker/jquery.ui.timepicker.css',
+	'vendor/tether/dist/css/tether.css',
 ];
 
 const testSources = ['../tests/js/unit/**/*.js'];
